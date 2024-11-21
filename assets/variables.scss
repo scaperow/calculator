@@ -1,0 +1,40 @@
+@import "~vuetify/src/styles/styles.sass";
+
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+// $--font-path: "~element-ui/lib/theme-chalk/fonts";
+
+$--color-primary: #00a6ed;
+$--color-secondary: #00a6ed;
+$--color-success: #7fb800;
+$--color-error: #ffb400;
+$--color-warn: #c9444d;
+$--color-danger: #c9444d;
+$--color-white: #fff;
+$--color-info: #fff;
+$--background-color-base: #f3f3f3;
+$--color-text-primary: #333;
+$--color-text-regular: #444;
+$--color-text-secondary: #666;
+$--color-warning: #c9444d;
+$--color-danger-light: lighten($--color-danger, 20%);
+
+$--color-primary-light-2: lighten($--color-primary, 20%);
+$--color-primary-light-4: lighten($--color-primary, 40%);
+$--border-color-base: #c3c3c3;
+
+/// color||Color|0
+$--button-primary-border-color: $--color-secondary;
+/// color||Color|0
+$--button-primary-background-color: $--color-secondary;
+
+// Box-shadow
+/// boxShadow|1|Shadow|1
+$--box-shadow-base: 0 0 12px 0 rgba(0, 0, 0, 0.3) !default;
+// boxShadow|1|Shadow|1
+$--box-shadow-dark: 0 0 12px 0 rgba(0, 0, 0, 0.3) !default;
+/// boxShadow|1|Shadow|1
+$--box-shadow-light: 0 0 12px 0 rgba(0, 0, 0, 0.3) !default;

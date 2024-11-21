@@ -1,0 +1,146 @@
+@import "./variables.scss";
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  letter-spacing: 1px;
+  outline: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.logo {
+  background: url(/logo.png);
+  background-repeat: no-repeat;
+  background-size: 45px 45px;
+  padding-left: 50px;
+  background-position: 0;
+  cursor: pointer;
+  height: 60px;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 200;
+
+  label {
+    color: #fff;
+    border-top: solid 1px #fff;
+    border-bottom: solid 1px #fff;
+    padding: 2px 6px;
+    cursor: pointer;
+    font-size: 28px;
+  }
+
+  &.dark {
+    label {
+      color: #666;
+      border-top: solid 1px #666;
+      border-bottom: solid 1px #666;
+      padding: 2px 6px;
+      cursor: pointer;
+    }
+  }
+}
+
+.content-tip {
+  color: $--color-info;
+  margin: 36px 42px;
+  text-align: center;
+
+  p {
+    min-width: 120px;
+    display: inline-block;
+    padding: 36px 48px;
+    background: #f3f2e962;
+    border-radius: 16px;
+    text-align: center;
+
+    .iconfont {
+      font-size: 32px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.tip {
+  color: $--color-info;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background: #f3f2e962;
+  font-size: 12px;
+
+  &[primary] {
+    color: $--color-white;
+    background: $--color-primary;
+
+    button {
+      color: $--color-white;
+
+      &:hover {
+        color: darken($--color-white, 20%);
+      }
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  &[center] {
+    text-align: center;
+  }
+
+  .iconfont {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+}
+
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.inline-block {
+  display: inline-block;
+}
+
+.float-right {
+  float: right;
+}
+
+
+.goTXarea {
+  //width: auto !important;
+  //margin: 6px;
+  //box-shadow: 3px 3px 6px #ccc;
+  //background: red;
+
+  background: "transparent";
+  margin: 4;
+  padding: 0;
+  border: 0;
+  outline: "none";
+  white-space: pre-wrap;
+  overflow: "hidden";
+  font-size: 12px;
+}
+
+.theme--light.v-application {
+  background: #fff !important;
+}
+
+.theme--dark.v-application {
+  background: #333;
+}

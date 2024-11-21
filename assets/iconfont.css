@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+    src: url('//at.alicdn.com/t/font_1319501_l1ccsc5fpz.eot?t=1576594310690'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_1319501_l1ccsc5fpz.eot?t=1576594310690#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOUAAsAAAAAB5wAAANGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqCfIJeATYCJAMMCwgABCAFhG0HQBuuBhHVm6XIfiRkbmZ8di7NI340oSxrnAkeCM/3XXJNkX5BM9jZage7AbC2GZKcURWKJYkH/8vfaG8wSkr55RP3Tv9KfD7Lchpz2Jy6KcAEAxprU+BdXCABecPYTZQHsR8CsBBKMqJEqQo1MCEBwwQgOrRt3RRTyoKsKRaYEGglc2UJMRkDJmWMch6YxL8v3pApTKBgUAFjq7Qq2YIiz/M/L63anDYaUALpeC5AWwQqkAxIEI1KPXVQw1gyKhZHI+uzNSQCZayg0wmXuDptpX88BYQGKLQCEC+qlZOSYgEEPC8tFrWcvw+0MNEb2CmVvZJzlKw81s5jA33rzRSzZo3zqbkirrv9ca2HT2vcuBG3xeZdY7pthj7Or/YssqHPDf3Ji9pD7MW6eE/vr9rttVyvX68h24TdHI7ae5MiJcNur73MUTOb6ahtFbqw4DebOctPxwUr+vUaZ2p2sNvD5jlKj7tR8/p1z8N+x6JvBHpJ01r34q/GLTxtyF2jodpxPlLWddcu0LHLvqbFdG/NJ7BpjPtas1Z9RJmXnuahjQLaSlnPXTtfMLqLaLC9aHeKcOynqN6pU3XRCyU6dRLVe8mvWFa0q2st+fX31iSlaNU59drQXvTraKga0LH7LFNlY9uQIr6RRXzKTYo7Ufpj0kdi4OFmvUim1JXgXrkabh8SV3VUR1m4UbdGRfM8Kj06unx0rtK2imcmkX9S9lODzMZuBb7VugTgdph1JB/gtMkLqg0w3YVXwF8pkefB6ZQXdDmIqhKo0csZfColekYUwAJFnh4Q8OR+f51P60IQmPCJoWAkBComoknJSoYBnWxomCgMC0mUXqzjRTdUhDQDiYwQIHBnExRcOQQVdy6QknUPBnx5Bw13ocJCLeG1pk6sMLMpLmgVA7gfZM87IbuaoPiG8VqtJOWc/UI5cxD6pssmZ9xRxphwvuOgSkDCG0zCYbiuDIdwQa9NUj3GtqWyJzWet8pQXNAqBnA/yJ53os3V5D5/w3itVmqqOsIvlDO3Dn3TtSBnzd6q6loeOd9xUCUg4Q0mwYUrjDEc5b0Kem1Sj8gxtlIjaqtp5tdtD1Cs1QF2U4UiVCHRe2P+5v2fMl01jTrLVQUAAA==') format('woff2'),
+    url('//at.alicdn.com/t/font_1319501_l1ccsc5fpz.woff?t=1576594310690') format('woff'),
+    url('//at.alicdn.com/t/font_1319501_l1ccsc5fpz.ttf?t=1576594310690') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1319501_l1ccsc5fpz.svg?t=1576594310690#iconfont') format('svg'); /* iOS 4.1- */
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-wechat-pay:before {
+    content: "\e63b";
+  }
+  
+  .icon-alipay:before {
+    content: "\e647";
+  }
+  
